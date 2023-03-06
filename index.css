@@ -1,0 +1,35 @@
+:root{
+    --grid-rows: 1;
+    --grid-cols: 1; 
+}
+#grids{
+    display: grid;
+    grid-template-rows: repeat (var(--grid-rows), 5vw);
+    grid-template-columns: repeat (var(--grid-cols), 5vw);
+}
+#eraser{
+    border:none;
+    padding: 1%;
+    width: 15%;
+    background-color:gray;
+    color: aliceblue;
+    font-weight: 600;
+}
+.grid_size{
+    border:none;
+    padding: 1%;
+    width: 15%;
+    background-color:gray;
+    color: aliceblue;
+    font-weight: 600;
+}
+.grid-item{
+    padding: 1em;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#favcolor{
+    margin: 5%;
+    height: 80px;
+    width: 80px;
+}
